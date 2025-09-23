@@ -1,1 +1,17 @@
-
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Change Background</title>
+    <link rel="stylesheet" type="text/css" href="backgroound.css">
+    <script>
+        function changeColor() {
+            // สุ่มสีแบบ hex เช่น #A1B2C3
+            let color = "#" + Math.floor(Math.random()*16777215).toString(16);
+            document.body.style.backgroundColor = color;
+        }
+    </script>
+</head>
+<body>
+    <button onclick="changeColor()">Change Background</button>
+</body>
+</html>
