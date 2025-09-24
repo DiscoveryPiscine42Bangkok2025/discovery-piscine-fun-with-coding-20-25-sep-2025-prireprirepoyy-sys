@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Team Resume - [Team Name]</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 40px;
+            background-color: #e9ecef;
+            color: #343a40;
+            display: flex;
+            justify-content: center;
+        }
+
+        .resume-container {
+            width: 1000px;
+            background-color: #fff;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            border-radius: 12px;
+            overflow: hidden;
+            padding: 40px;
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 40px;
+            padding-bottom: 20px;
+            border-bottom: 3px solid #6c757d;
+        }
+
+        .header h1 {
+            font-size: 48px;
+            color: #495057;
+            margin: 0;
+        }
+
+        .header p {
+            font-size: 20px;
+            color: #868e96;
+            margin-top: 10px;
+        }
+
+        .team-members {
+            display: flex;
+            justify-content: space-between;
+            gap: 40px;
+        }
+
+        .member-column {
+            width: 50%;
+            padding: 0 20px;
+        }
+
+        .profile-photo {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 4px solid #adb5bd;
+            display: block;
+            margin: 0 auto 20px;
+        }
+
+        .member-column h2 {
+            font-size: 28px;
+            color: #007bff;
+            text-align: center;
+            margin-bottom: 10px;
+        }
+
+        .member-column h3 {
+            font-size: 20px;
+            color: #343a40;
+            border-bottom: 2px solid #ced4da;
+            padding-bottom: 5px;
+            margin-top: 30px;
+        }
+
+        .contact-list, .skills-list, .experience-list {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .contact-list li, .skills-list li, .experience-list li {
+            margin-bottom: 10px;
+            line-height: 1.6;
+        }
+
+        .experience-item {
+            margin-bottom: 25px;
+        }
+
+        .experience-item h4 {
+            font-size: 18px;
+            margin: 0;
+        }
+
+        .experience-item p {
+            margin: 5px 0;
+            color: #6c757d;
+        }
+    </style>
+</head>
+<body>
+    <div class="resume-container">
+        <div class="header">
+            <h1>Strategic Alliance</h1>
+            <p><strong>Team Objective:</strong> A focused team with a strategic approach to every project, ensuring efficiency and success.".</p>
+        </div>
+
+        <div class="team-members">
+            <div class="member-column">
+                <img src="https://cdn.discordapp.com/attachments/1420320020503728143/1420342296074780712/IMG_8587.jpg?ex=68d50c58&is=68d3bad8&hm=f77f8da4b437c0fd3aa5949ab6bd0705d590715a0ab2f7b7c097cc5992aa80e1" alt="Photo of Member 1" class="profile-photo">
+                <h2>Natsinee Saksirivanit</h2>
+                
+
+                <h3>Contact Information</h3>
+                <ul class="contact-list">
+                    <li><strong>Email:</strong> 68100318@kmitl.ac.th</li>
+                    <li><strong>Phone:</strong> 0956078340</li>
+                    <li><strong>Id line:</strong> ploy2005</li>
+                </ul>
+
+                <h3>Skills</h3>
+                <ul class="skills-list">
+                    <li>- ทักษะด้านโปรแกรมมิ่ง: Python, Java, C++, JavaScript</li>
+                    <li>- Communication: การสื่อสารที่ชัดเจนกับเพื่อนร่วมทีม</li>
+                    <li>- ทักษะการใช้โปรแกรม Microsoft Excel, การทำบัญชี, การใช้เครื่องมือทางสถิติ,การทำ project management
+
+</li>
+                </ul>
+                
+                <h3>Experience</h3>
+                <div class="experience-item">
+                    
+                        <li>เเข่งขันเเบดมินตันประเภทคู่ในงานกีฬามหาลัย</li>
+                        <li></li>ได้รับการคัดเลือกไปเเกะสลักโชว์ในงานรับเสด็จสมเด็จพระเทพฯ
+                    </ul>
+                </div>
+            </div>
+
+            <div class="member-column">
+                <img src="https://cdn.discordapp.com/attachments/1420336432677130240/1420336880461025301/IMG_5660.jpg?ex=68d5074c&is=68d3b5cc&hm=906099250ceade5ebf13635d4817a3f1bd1d75d167cfea4651755dc0a0b1cbeb&" alt="Photo of Member 2" class="profile-photo">
+                <h2>Thanyaboon Sanguansap</h2>
+                
+
+                <h3>Contact Information</h3>
+                <ul class="contact-list">
+                    <li><strong>Email:</strong> 68100349@kmitl.ac.th</li>
+                    <li><strong>Phone:</strong>093592758</li>
+                    <li><strong>Id line:</strong>folk2548_</li>
+                </ul>
+
+                <h3>Skills</h3>
+                <ul class="skills-list">
+                    <li>- ทักษะด้านโปรแกรมมิ่ง: Python, Java, C++, JavaScript</li>
+                    <li>- ทักษะด้านการออกแบบ: Adobe Photoshop, Illustrator, Figma,</li>
+                    <li>- ทักษะการสื่อสาร (Communication Skills): การนำเสนอ,การเจรจาต่อรอง</li>
+                </ul>
+
+                <h3>Experience</h3>
+                <div class="experience-item">
+                    
+                        <li>ชนะการเเข่งขัน e-sport ในงาน sport game</li>
+                        <li>ได่รับเลือกเป็นpresenterในงานวิชา How to make money for chinese</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
