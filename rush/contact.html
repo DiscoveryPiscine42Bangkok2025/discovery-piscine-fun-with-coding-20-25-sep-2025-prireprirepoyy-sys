@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Contact - Resume and Portfolio</title>
+    <style>
+        body {
+            background-color: #000000;
+            color: #ffffff;
+            font-family: Trebuchet MS, serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Navigation Bar Styling */
+        nav {
+            background-color: #495057;
+            padding: 15px 0;
+            text-align: center;
+            border-radius: 8px;
+            margin-bottom: 20px;
+            position: fixed;
+            top: 0;
+            width: 100%;
+            z-index: 1000;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        nav li {
+            margin: 0 10px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #fff;
+            font-size: 18px;
+            font-weight: bold;
+            transition: color 0.3s ease;
+            white-space: nowrap;
+        }
+
+        nav a:hover {
+            color: #007bff;
+        }
+
+        main {
+            padding: 100px 5% 50px;
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 2.8vw;
+            margin-bottom: 40px;
+        }
+
+        .contacts-wrapper {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 50px;
+        }
+
+        .contact-card {
+            background-color: #1c1c1c;
+            border-radius: 12px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.5);
+            padding: 30px 25px;
+            width: 320px;
+            text-align: center;
+            transition: transform 0.3s ease;
+        }
+
+        .contact-card:hover {
+            transform: scale(1.05);
+        }
+
+        .contact-card h2 {
+            margin-top: 0;
+            color: #01ACBD;
+            margin-bottom: 25px;
+        }
+
+        .contact-item {
+            margin-bottom: 20px;
+        }
+
+        .contact-item img {
+            width: 40px;
+            height: 40px;
+            vertical-align: middle;
+            margin-right: 10px;
+        }
+
+        .contact-item a {
+            color: #01ACBD;
+            font-size: 16px;
+            text-decoration: none;
+            vertical-align: middle;
+            transition: color 0.3s ease;
+        }
+
+        .contact-item a:hover {
+            color: #78dce8;
+        }
+
+        @media (max-width: 700px) {
+            .contacts-wrapper {
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="Vision.html">Vision</a></li>
+            <li><a href="activities.html">Activities</a></li>
+            <li><a href="project.html">Project</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <h1>Contact Me</h1>
+        <div class="contacts-wrapper">
+
+            <!-- Contact Card 1 -->
+            <div class="contact-card">
+                <h2>Nutsinee Saksirivanit (Ploy)</h2>
+
+                <div class="contact-item">
+                    <img src="https://cdn-icons-png.flaticon.com/512/2111/2111463.png" alt="Instagram" />
+                    <a href="https://www.instagram.com/prirepoy_?igsh=Nmh2NXN1djR3M3ho&utm_source=qr" target="_blank" rel="noopener noreferrer" aria-label="Visit Nutsinee's Instagram">@prirepoy_</a>
+                </div>
+
+                <div class="contact-item">
+                    <img src="line.png" alt="Line" />
+                    <a href="https://line.me/ti/p/DSsR6oLR1r" target="_blank" rel="noopener noreferrer" aria-label="Chat with Nutsinee on Line">@0624738281</a>
+                </div>
+
+                <div class="contact-item">
+                    <img src="https://cdn-icons-png.flaticon.com/512/732/732200.png" alt="Gmail" />
+                    <a href="mailto:68100318@kmitl.ac.th">68100318@kmitl.ac.th</a>
+                </div>
+            </div>
+
+            <!-- Contact Card 2 -->
+            <div class="contact-card">
+                <h2>Thanyaboon Saguansap</h2>
+
+                <div class="contact-item">
+                    <img src="https://cdn-icons-png.flaticon.com/512/2111/2111463.png" alt="Instagram" />
+                    <a href="https://www.instagram.com/folk_sanguansap?igsh=MW9oMnVhb3RlNWEwdg%3D%3D&utm_source=qr" target="_blank" rel="noopener noreferrer" aria-label="Visit Thanyaboon's Instagram">@folk_sanguansap</a>
+                </div>
+
+                <div class="contact-item">
+                    <img src="line.png" alt="Line" />
+                    <a href="https://line.me/ti/p/pXgVSTHCNg" target="_blank" rel="noopener noreferrer" aria-label="Chat with Thanyaboon on Line">@sevenfolk</a>
+                </div>
+
+                <div class="contact-item">
+                    <img src="https://cdn-icons-png.flaticon.com/512/732/732200.png" alt="Gmail" />
+                    <a href="mailto:68100348@kmitl.ac.th">68100348@kmitl.ac.th</a>
+                </div>
+            </div>
+
+        </div>
+    </main>
+</body>
+</html>
