@@ -1,1 +1,628 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Team Profile - Strategic Alliance</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding-top: 60px;
+            background-color: #e9ecef;
+            color: #343a40;
+        }
+        
+        .resume-container {
+            max-width: 900px;
+            background-color: #fff;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            border-radius: 12px;
+            padding: 40px;
+            margin: 50px auto;
+            text-align: center;
+        }
 
+        .header {
+            margin-bottom: 40px;
+            padding-bottom: 20px;
+            border-bottom: 3px solid #6c757d;
+        }
+
+        .header h1 {
+            font-size: 48px;
+            color: #495057;
+            margin: 0;
+        }
+
+        .team-members {
+            display: flex;
+            justify-content: space-around;
+            gap: 40px;
+            flex-wrap: wrap;
+        }
+
+        .member-card {
+            width: 350px;
+            padding: 20px;
+            background-color: #f8f9fa;
+            border-radius: 10px;
+            border: 1px solid #dee2e6;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+        }
+
+        .profile-photo {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 4px solid #007bff;
+            display: block;
+            margin: 0 auto 20px;
+        }
+
+        .member-card h2 {
+            font-size: 28px;
+            margin-bottom: 15px;
+        }
+        
+        /* สไตล์ลิงก์ชื่อ (สำคัญ: ลิงก์ไปยังหน้า Skills/Experience) */
+        .member-card h2 a {
+            color: #007bff;
+            text-decoration: none;
+            transition: color 0.3s ease, text-decoration 0.3s ease;
+            cursor: pointer;
+        }
+        
+        .member-card h2 a:hover {
+            color: #0056b3; 
+            text-decoration: underline; 
+        }
+        
+        .contact-summary {
+            list-style: none;
+            padding: 0;
+            text-align: left;
+            margin: 20px auto 0;
+            width: fit-content;
+        }
+
+        .contact-summary li {
+            margin-bottom: 5px;
+            font-size: 16px;
+        }
+        .contact-summary li strong {
+            display: inline-block;
+            width: 50px;
+            color: #495057;
+        }
+
+        /* Navigation Bar Styling */
+        nav {
+            background-color: #495057;
+            padding: 15px 0;
+            text-align: center;
+            position: fixed;
+            top: 0;
+            width: 100%;
+            z-index: 1000;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+        }
+
+        nav li {
+            margin: 0 15px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #fff;
+            font-size: 18px;
+            font-weight: bold;
+            transition: color 0.3s ease;
+        }
+
+        nav a:hover {
+            color: #007bff;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html">Profile</a></li>
+            <li><a href="natsinee_2_activities.html">Activities (Combined)</a></li>
+            <li><a href="natsinee_3_contact.html">Contact (Combined)</a></li>
+        </ul>
+    </nav>
+    <div class="resume-container">
+        <div class="header">
+            <h1>Strategic Alliance</h1>
+            <p>Our Core Team</p>
+        </div>
+
+        <div class="team-members">
+            <div class="member-card">
+                <img src="https://cdn.discordapp.com/attachments/1420320020503728143/1420342296074780712/IMG_8587.jpg?ex=68d50c58&is=68d3bad8&hm=f77f8da4b437c0fd3aa5949ab6bd0705d590715a0ab2f7b7c097cc5992aa80e1" alt="Photo of Natsinee" class="profile-photo">
+                
+                <h2><a href="natsinee_1_skills.html">Natsinee Saksirivanit</a></h2>
+                
+                <ul class="contact-summary">
+                    <li><strong>Email:</strong> 68100318@kmitl.ac.th</li>
+                    <li><strong>Tel:</strong> 0956078340</li>
+                </ul>
+            </div>
+
+            <div class="member-card">
+                <img src="https://cdn.discordapp.com/attachments/1420336432677130240/1420336880461025301/IMG_5660.jpg?ex=68d5074c&is=68d3b5cc&hm=906099250ceade5ebf13635d4817a3f1bd1d75d167cfea4651755dc0a0b1cbeb&" alt="Photo of Thanyaboon" class="profile-photo">
+                
+                <h2><a href="thanyaboon_1_skills.html">Thanyaboon Sanguansap</a></h2>
+                
+
+                <ul class="contact-summary">
+                    <li><strong>Email:</strong> 68100349@kmitl.ac.th</li>
+                    <li><strong>Tel:</strong> 093592758</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Natsinee - Skills & Experience</title>
+    <style>
+        /* Shared Styles for Natsinee/Thanyaboon Pages */
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.6; margin: 0; padding-top: 60px; background-color: #f0f4f8; color: #343a40; }
+        .profile-container { max-width: 800px; margin: 50px auto; background: #fff; padding: 40px; border-radius: 12px; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); }
+        .header-section { text-align: center; padding-bottom: 20px; border-bottom: 3px solid #007bff; margin-bottom: 30px; }
+        .header-section h1 { font-size: 36px; color: #495057; margin: 0; }
+        .header-section p { font-size: 18px; color: #868e96; margin-top: 5px; }
+        .content-section { margin-bottom: 30px; }
+        .content-section h2 { font-size: 24px; color: #007bff; border-bottom: 2px solid #ced4da; padding-bottom: 5px; margin-bottom: 15px; }
+        ul { list-style: none; padding: 0; }
+        ul li { margin-bottom: 10px; padding-left: 20px; position: relative; }
+        ul li::before { content: '•'; color: #007bff; font-weight: bold; display: inline-block; width: 1em; margin-left: -1em; }
+        
+        /* Navigation & Footer */
+        nav { background-color: #495057; padding: 10px 0; text-align: center; position: fixed; top: 0; width: 100%; z-index: 1000; }
+        nav a { text-decoration: none; color: #fff; font-size: 16px; font-weight: bold; padding: 0 15px; transition: color 0.3s ease; }
+        nav a:hover { color: #007bff; }
+        .nav-footer { margin-top: 40px; text-align: center; }
+        .nav-button { display: inline-block; padding: 10px 20px; background-color: #28a745; color: white; text-decoration: none; border-radius: 5px; font-weight: bold; transition: background-color 0.3s; }
+        .nav-button:hover { background-color: #1e7e34; }
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="index.html">← Back to Team</a>
+    </nav>
+    <div class="profile-container">
+        <div class="header-section">
+            <h1>Natsinee Saksirivanit</h1>
+            <p>Profile: Skills & Experience (1/3)</p>
+        </div>
+
+        <div class="content-section">
+            <h2>Skills</h2>
+            <ul>
+                <li>ทักษะด้านโปรแกรมมิ่ง: **Python, Java, C++, JavaScript**</li>
+                <li>Communication: การสื่อสารที่ชัดเจนกับเพื่อนร่วมทีม</li>
+                <li>ทักษะการใช้โปรแกรม **Microsoft Excel**, การทำบัญชี, การใช้เครื่องมือทางสถิติ, การทำ project management</li>
+            </ul>
+        </div>
+        
+        <div class="content-section">
+            <h2>Experience</h2>
+            <ul>
+                <li>เเข่งขันเเบดมินตันประเภทคู่ในงานกีฬามหาลัย</li>
+                <li>ได้รับการคัดเลือกไปเเกะสลักโชว์ในงานรับเสด็จสมเด็จพระเทพฯ</li>
+            </ul>
+        </div>
+
+        <div class="nav-footer">
+            <a href="natsinee_2_activities.html" class="nav-button">Next: Activities →</a>
+        </div>
+    </div>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Natsinee - Activities</title>
+    <style>
+        /* Shared Styles for Natsinee/Thanyaboon Pages */
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.6; margin: 0; padding-top: 60px; background-color: #f0f4f8; color: #343a40; }
+        .profile-container { max-width: 800px; margin: 50px auto; background: #fff; padding: 40px; border-radius: 12px; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); }
+        .header-section { text-align: center; padding-bottom: 20px; border-bottom: 3px solid #007bff; margin-bottom: 30px; }
+        .header-section h1 { font-size: 36px; color: #495057; margin: 0; }
+        .header-section p { font-size: 18px; color: #868e96; margin-top: 5px; }
+        .content-section { margin-bottom: 30px; }
+        .content-section h2 { font-size: 24px; color: #007bff; border-bottom: 2px solid #ced4da; padding-bottom: 5px; margin-bottom: 20px; }
+        
+        /* Activity Gallery Styles */
+        .gallery-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+        }
+        .activity-card {
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            overflow: hidden;
+            background: #fff;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+        .activity-card img {
+            width: 100%;
+            height: 180px;
+            object-fit: cover;
+            display: block;
+        }
+        .card-content {
+            padding: 15px;
+        }
+        .card-content h5 {
+            color: #007bff;
+            font-size: 16px;
+            font-weight: 600;
+            margin: 0;
+            min-height: 40px;
+        }
+        
+        /* Navigation & Footer */
+        nav { background-color: #495057; padding: 10px 0; text-align: center; position: fixed; top: 0; width: 100%; z-index: 1000; }
+        nav a { text-decoration: none; color: #fff; font-size: 16px; font-weight: bold; padding: 0 15px; transition: color 0.3s ease; }
+        nav a:hover { color: #007bff; }
+        .nav-footer { margin-top: 40px; text-align: center; display: flex; justify-content: space-between; }
+        .nav-button { display: inline-block; padding: 10px 20px; background-color: #28a745; color: white; text-decoration: none; border-radius: 5px; font-weight: bold; transition: background-color 0.3s; }
+        .nav-button:hover { background-color: #1e7e34; }
+        .back-button { background-color: #6c757d; }
+        .back-button:hover { background-color: #5a6268; }
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="index.html">← Back to Team</a>
+    </nav>
+    <div class="profile-container">
+        <div class="header-section">
+            <h1>Natsinee Saksirivanit</h1>
+            <p>Profile: Activities & Achievements (2/3)</p>
+        </div>
+
+        <div class="content-section">
+            <h2>Activities Gallery</h2>
+            <div class="gallery-container">
+                <div class="activity-card">
+                    <img src="https://cdn.discordapp.com/attachments/1420320020503728143/1420410598059151370/IMG_3346.jpg?ex=68d54bf4&is=68d3fa74&hm=3e22d66c0e2585ea4644968fe6c50f8807a193a718e30c15c5ce6d45b2c6a438&" alt="Activity 1 by Natsinee">
+                    <div class="card-content">
+                        <h5>รางวัลชนะเลิศการเเข่งขันรวมกีฬาในงานราชพฤกษ์เกมครั้งที่13</h5>
+                    </div>
+                </div>
+                <div class="activity-card">
+                    <img src="https://cdn.discordapp.com/attachments/1420320020503728143/1420410598407147703/IMG_3356.jpg?ex=68d54bf4&is=68d3fa74&hm=6d00b3c259501f989ef6080678426487cfa9df93a9b6f89fc00d6604cfb872e2&" alt="Activity 2 by Natsinee">
+                    <div class="card-content">
+                        <h5>ได้รับการคัดเลือกเเกะสลักโชว์งานรับเสด็จสมเด็จพระเทพฯ</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="nav-footer">
+            <a href="natsinee_1_skills.html" class="nav-button back-button">← Previous: Skills</a>
+            <a href="natsinee_3_contact.html" class="nav-button">Next: Contact →</a>
+        </div>
+    </div>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Natsinee - Contact</title>
+    <style>
+        /* Dark Mode Base Styles */
+        body { background-color: #121212; color: #ffffff; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.6; margin: 0; padding-top: 60px; }
+        .profile-container { max-width: 600px; margin: 50px auto; background: #1e1e1e; padding: 40px; border-radius: 12px; box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5); text-align: center; border: 1px solid #333;}
+        .header-section { padding-bottom: 20px; border-bottom: 3px solid #007bff; margin-bottom: 30px; }
+        .header-section h1 { font-size: 36px; color: #ffffff; margin: 0; }
+        .header-section p { font-size: 18px; color: #868e96; margin-top: 5px; }
+        
+        /* Contact List Styles */
+        .contact-list { list-style: none; padding: 0; margin-top: 40px; }
+        .contact-item { margin-bottom: 25px; display: flex; align-items: center; justify-content: center; }
+        .contact-item img { width: 30px; height: 30px; margin-right: 15px; filter: invert(100%); }
+        .contact-item img[alt="Instagram"], .contact-item img[alt="Gmail"] { filter: none; }
+        .contact-item a { color: #78dce8; font-size: 18px; text-decoration: none; transition: color 0.3s ease; }
+        .contact-item a:hover { color: #007bff; }
+        
+        /* Navigation & Footer */
+        nav { background-color: #495057; padding: 10px 0; text-align: center; position: fixed; top: 0; width: 100%; z-index: 1000; }
+        nav a { text-decoration: none; color: #fff; font-size: 16px; font-weight: bold; padding: 0 15px; transition: color 0.3s ease; }
+        nav a:hover { color: #007bff; }
+        .nav-footer { margin-top: 40px; text-align: center; display: flex; justify-content: flex-start; }
+        .nav-button { display: inline-block; padding: 10px 20px; background-color: #28a745; color: white; text-decoration: none; border-radius: 5px; font-weight: bold; transition: background-color 0.3s; }
+        .nav-button:hover { background-color: #1e7e34; }
+        .back-button { background-color: #6c757d; }
+        .back-button:hover { background-color: #5a6268; }
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="index.html">← Back to Team</a>
+    </nav>
+    <div class="profile-container">
+        <div class="header-section">
+            <h1>Natsinee Saksirivanit</h1>
+            <p>Profile: Contact Details (3/3) - Dark Mode</p>
+        </div>
+
+        <ul class="contact-list">
+            <li class="contact-item">
+                <img src="https://cdn-icons-png.flaticon.com/512/2111/2111463.png" alt="Instagram" />
+                <a href="https://www.instagram.com/prirepoy_?igsh=Nmh2NXN1djR3M3ho&utm_source=qr" target="_blank">Instagram: @prirepoy_</a>
+            </li>
+            <li class="contact-item">
+                <img src="https://cdn-icons-png.flaticon.com/512/3536/3536445.png" alt="Line" /> 
+                <a href="https://line.me/ti/p/DSsR6oLR1r" target="_blank">Line ID: @0624738281</a>
+            </li>
+            <li class="contact-item">
+                <img src="https://cdn-icons-png.flaticon.com/512/732/732200.png" alt="Gmail" />
+                <a href="mailto:68100318@kmitl.ac.th">Email: 68100318@kmitl.ac.th</a>
+            </li>
+            <li class="contact-item">
+                <img src="https://cdn-icons-png.flaticon.com/512/3059/3059446.png" alt="Phone" />
+                <span>Phone: 095-607-8340</span>
+            </li>
+        </ul>
+
+        <div class="nav-footer">
+            <a href="natsinee_2_activities.html" class="nav-button back-button">← Previous: Activities</a>
+        </div>
+    </div>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thanyaboon - Skills & Experience</title>
+    <style>
+        /* Shared Styles for Natsinee/Thanyaboon Pages */
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.6; margin: 0; padding-top: 60px; background-color: #f0f4f8; color: #343a40; }
+        .profile-container { max-width: 800px; margin: 50px auto; background: #fff; padding: 40px; border-radius: 12px; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); }
+        .header-section { text-align: center; padding-bottom: 20px; border-bottom: 3px solid #007bff; margin-bottom: 30px; }
+        .header-section h1 { font-size: 36px; color: #495057; margin: 0; }
+        .header-section p { font-size: 18px; color: #868e96; margin-top: 5px; }
+        .content-section { margin-bottom: 30px; }
+        .content-section h2 { font-size: 24px; color: #007bff; border-bottom: 2px solid #ced4da; padding-bottom: 5px; margin-bottom: 15px; }
+        ul { list-style: none; padding: 0; }
+        ul li { margin-bottom: 10px; padding-left: 20px; position: relative; }
+        ul li::before { content: '•'; color: #007bff; font-weight: bold; display: inline-block; width: 1em; margin-left: -1em; }
+        
+        /* Navigation & Footer */
+        nav { background-color: #495057; padding: 10px 0; text-align: center; position: fixed; top: 0; width: 100%; z-index: 1000; }
+        nav a { text-decoration: none; color: #fff; font-size: 16px; font-weight: bold; padding: 0 15px; transition: color 0.3s ease; }
+        nav a:hover { color: #007bff; }
+        .nav-footer { margin-top: 40px; text-align: center; }
+        .nav-button { display: inline-block; padding: 10px 20px; background-color: #28a745; color: white; text-decoration: none; border-radius: 5px; font-weight: bold; transition: background-color 0.3s; }
+        .nav-button:hover { background-color: #1e7e34; }
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="index.html">← Back to Team</a>
+    </nav>
+    <div class="profile-container">
+        <div class="header-section">
+            <h1>Thanyaboon Sanguansap</h1>
+            <p>Profile: Skills & Experience (1/3)</p>
+        </div>
+
+        <div class="content-section">
+            <h2>Skills</h2>
+            <ul>
+                <li>ทักษะด้านโปรแกรมมิ่ง: **Python, Java, C++, JavaScript**</li>
+                <li>ทักษะด้านการออกแบบ: **Adobe Photoshop, Illustrator, Figma**</li>
+                <li>ทักษะการสื่อสาร (Communication Skills): การนำเสนอ, การเจรจาต่อรอง</li>
+            </ul>
+        </div>
+        
+        <div class="content-section">
+            <h2>Experience</h2>
+            <ul>
+                <li>ชนะการเเข่งขัน e-sport ในงาน sport game</li>
+                <li>ได่รับเลือกเป็นpresenterในงานวิชา How to make money for chinese</li>
+            </ul>
+        </div>
+
+        <div class="nav-footer">
+            <a href="thanyaboon_2_activities.html" class="nav-button">Next: Activities →</a>
+        </div>
+    </div>
+</body>
+</html>
+3.2. thanyaboon_2_activities.html (Activities)
+HTML
+
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thanyaboon - Activities</title>
+    <style>
+        /* Shared Styles for Natsinee/Thanyaboon Pages */
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.6; margin: 0; padding-top: 60px; background-color: #f0f4f8; color: #343a40; }
+        .profile-container { max-width: 800px; margin: 50px auto; background: #fff; padding: 40px; border-radius: 12px; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); }
+        .header-section { text-align: center; padding-bottom: 20px; border-bottom: 3px solid #007bff; margin-bottom: 30px; }
+        .header-section h1 { font-size: 36px; color: #495057; margin: 0; }
+        .header-section p { font-size: 18px; color: #868e96; margin-top: 5px; }
+        .content-section { margin-bottom: 30px; }
+        .content-section h2 { font-size: 24px; color: #007bff; border-bottom: 2px solid #ced4da; padding-bottom: 5px; margin-bottom: 20px; }
+        
+        /* Activity Gallery Styles */
+        .gallery-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+        }
+        .activity-card {
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            overflow: hidden;
+            background: #fff;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+        .activity-card img {
+            width: 100%;
+            height: 180px;
+            object-fit: cover;
+            display: block;
+        }
+        .card-content {
+            padding: 15px;
+        }
+        .card-content h5 {
+            color: #007bff;
+            font-size: 16px;
+            font-weight: 600;
+            margin: 0;
+            min-height: 40px;
+        }
+        
+        /* Navigation & Footer */
+        nav { background-color: #495057; padding: 10px 0; text-align: center; position: fixed; top: 0; width: 100%; z-index: 1000; }
+        nav a { text-decoration: none; color: #fff; font-size: 16px; font-weight: bold; padding: 0 15px; transition: color 0.3s ease; }
+        nav a:hover { color: #007bff; }
+        .nav-footer { margin-top: 40px; text-align: center; display: flex; justify-content: space-between; }
+        .nav-button { display: inline-block; padding: 10px 20px; background-color: #28a745; color: white; text-decoration: none; border-radius: 5px; font-weight: bold; transition: background-color 0.3s; }
+        .nav-button:hover { background-color: #1e7e34; }
+        .back-button { background-color: #6c757d; }
+        .back-button:hover { background-color: #5a6268; }
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="index.html">← Back to Team</a>
+    </nav>
+    <div class="profile-container">
+        <div class="header-section">
+            <h1>Thanyaboon Sanguansap</h1>
+            <p>Profile: Activities & Achievements (2/3)</p>
+        </div>
+
+        <div class="content-section">
+            <h2>Activities Gallery</h2>
+            <div class="gallery-container">
+                <div class="activity-card">
+                    <img src="https://cdn.discordapp.com/attachments/1420336432677130240/1420337865836986439/IMG_7999.jpg?ex=68d50837&is=68d3b6b7&hm=125327b39d3975b82b8efa35fdcf1ca9e2e903a2d35256e48276b348e81edfe0" alt="Activity 1 by Thanyaboon">
+                    <div class="card-content">
+                        <h5>รางวัลชนะเลิศการเเข่งขัน e-sport ในงาน kbs sport day </h5>
+                    </div>
+                </div>
+                <div class="activity-card">
+                    <img src="https://cdn.discordapp.com/attachments/1420320020503728143/1420410596960243946/IMG_6018.jpg?ex=68d54bf4&is=68d3fa74&hm=384057ce25cbb9b8695a31f5a7b5ac00fa52feb3a730670ad0de505bdfecb124&" alt="Activity 2 by Thanyaboon">
+                    <div class="card-content">
+                        <h5>ได้รับการคัดเลือกเป็นpresenter ในวิชา How to make money for chinese </h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="nav-footer">
+            <a href="thanyaboon_1_skills.html" class="nav-button back-button">← Previous: Skills</a>
+            <a href="thanyaboon_3_contact.html" class="nav-button">Next: Contact →</a>
+        </div>
+    </div>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thanyaboon - Contact</title>
+    <style>
+        /* Dark Mode Base Styles */
+        body { background-color: #121212; color: #ffffff; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.6; margin: 0; padding-top: 60px; }
+        .profile-container { max-width: 600px; margin: 50px auto; background: #1e1e1e; padding: 40px; border-radius: 12px; box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5); text-align: center; border: 1px solid #333;}
+        .header-section { padding-bottom: 20px; border-bottom: 3px solid #007bff; margin-bottom: 30px; }
+        .header-section h1 { font-size: 36px; color: #ffffff; margin: 0; }
+        .header-section p { font-size: 18px; color: #868e96; margin-top: 5px; }
+        
+        /* Contact List Styles */
+        .contact-list { list-style: none; padding: 0; margin-top: 40px; }
+        .contact-item { margin-bottom: 25px; display: flex; align-items: center; justify-content: center; }
+        .contact-item img { width: 30px; height: 30px; margin-right: 15px; filter: invert(100%); }
+        .contact-item img[alt="Instagram"], .contact-item img[alt="Gmail"] { filter: none; }
+        .contact-item a { color: #78dce8; font-size: 18px; text-decoration: none; transition: color 0.3s ease; }
+        .contact-item a:hover { color: #007bff; }
+        
+        /* Navigation & Footer */
+        nav { background-color: #495057; padding: 10px 0; text-align: center; position: fixed; top: 0; width: 100%; z-index: 1000; }
+        nav a { text-decoration: none; color: #fff; font-size: 16px; font-weight: bold; padding: 0 15px; transition: color 0.3s ease; }
+        nav a:hover { color: #007bff; }
+        .nav-footer { margin-top: 40px; text-align: center; display: flex; justify-content: flex-start; }
+        .nav-button { display: inline-block; padding: 10px 20px; background-color: #28a745; color: white; text-decoration: none; border-radius: 5px; font-weight: bold; transition: background-color 0.3s; }
+        .nav-button:hover { background-color: #1e7e34; }
+        .back-button { background-color: #6c757d; }
+        .back-button:hover { background-color: #5a6268; }
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="index.html">← Back to Team</a>
+    </nav>
+    <div class="profile-container">
+        <div class="header-section">
+            <h1>Thanyaboon Sanguansap</h1>
+            <p>Profile: Contact Details (3/3) - Dark Mode</p>
+        </div>
+
+        <ul class="contact-list">
+            <li class="contact-item">
+                <img src="https://cdn-icons-png.flaticon.com/512/2111/2111463.png" alt="Instagram" />
+                <a href="https://www.instagram.com/folk_sanguansap?igsh=MW9oMnVhb3RlNWEwdg%3D%3D&utm_source=qr" target="_blank">Instagram: @folk_sanguansap</a>
+            </li>
+            <li class="contact-item">
+                <img src="https://cdn-icons-png.flaticon.com/512/3536/3536445.png" alt="Line" /> 
+                <a href="https://line.me/ti/p/pXgVSTHCNg" target="_blank">Line ID: @sevenfolk</a>
+            </li>
+            <li class="contact-item">
+                <img src="https://cdn-icons-png.flaticon.com/512/732/732200.png" alt="Gmail" />
+                <a href="mailto:68100349@kmitl.ac.th">Email: 68100349@kmitl.ac.th</a>
+            </li>
+            <li class="contact-item">
+                <img src="https://cdn-icons-png.flaticon.com/512/3059/3059446.png" alt="Phone" />
+                <span>Phone: 093-592-758</span>
+            </li>
+        </ul>
+
+        <div class="nav-footer">
+            <a href="thanyaboon_2_activities.html" class="nav-button back-button">← Previous: Activities</a>
+        </div>
+    </div>
+</body>
+</html>
